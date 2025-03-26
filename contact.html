@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./stylecontact.css" />
+    <link rel="icon" href="./assets/favicon.jpeg" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div id="nav-container">
+      <h1>Contact Us</h1>
+      <ul>
+        
+        <li><a href="index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a class="current" href="#">Contact</a></li>
+    </ul>
+    </div>
+
+    <!-- Contact Us Section -->
+    <div id="contact-container">
+      <h2>Contact Us</h2>
+      <form class="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Your message here..." rows="5" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+
+      <div class="hotel-info">
+        <div class="info-item">
+          <span class="icon">📍</span>
+          <p>Location: JP Nagar, Banglore </p>
+        </div>
+        <div class="info-item">
+          <span class="icon">📞</span>
+          <p>Phone:+91 9113899600</p>
+        </div>
+        <div class="info-item">
+          <span class="icon">📧</span>
+          <p>Email: Liora@gmail.com</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer --> 
+    <div id="footer">Liora &copy; 2025. All Rights Reserved</div>
+  </body>
+</html>
+
