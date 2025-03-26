@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    line-height: 1.5em;
+}
+.text-primary{
+    color: #f7c08a ;
+}
+.color-primary{
+    color: white ;
+}
+.bg-dark{
+    background-color: #0B235A;
+    color: #fff;
+}
+.bg-primary{
+    background-color:beige;
+    color: #0B235A
+}
+.bg-light{
+    background-color:#f4f4f4;
+    color: #0B235A
+}
+/* navbar  */
+#navbar-container{
+    background-color:#0B235A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 12px ;
+}
+#navbar-container a{
+    text-decoration: none;
+    color: #fff;
+}
+#navbar-container ul{
+    list-style: none;
+    display: flex;  
+    align-items: center;
+}
+#navbar-container ul li a{
+    display: block;
+    padding: 20px;
+}
+#navbar-container h1 a .img{
+    image-resolution: 10px;
+
+}
+#navbar-container ul li a:hover,
+#navbar-container ul li a.current
+{
+    color: #f7c08a;
+    background-color: #0B235A;
+}
+/* showcase  */
+#showcase-container{
+    background: url("./assets/photo5.jpg");
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#showcase-container .showcase-content{
+    text-align: center;
+}
+#showcase-container .showcase-content h1{
+    color:  #0B235A;
+    font-size: 60px;
+    line-height: 1.5em;
+}
+#showcase-container .showcase-content p{
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.7em;
+    padding-bottom: 8px;
+}
+.btn{
+    padding: 13px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s ease-in-out;
+}
+.btn:hover{
+    background-color: #f7c08a;
+}
+/* history   */
+#history-container{
+    height: 400px;
+    display: flex;
+    
+}
+#history-container .history-img{
+    background: url("./assets/photo2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 50%;
+}
+#history-container .history-content{
+    flex: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+#history-container .history-content h1{
+    font-size: 36px;
+    line-height: 1.7em;
+}
+#history-container .history-content p{
+    margin-bottom: 12px;
+}
+
+/* features  */
+#features-container{
+    text-align: center;
+    display: flex;
+}
+.feature-box{
+    padding: 50px;
+    flex: 33.33%;
+    color: #0B235A;
+}
+#footer{
+    text-align: center;
+    color: #fff;
+    background-color: #0B235A;
+    padding: 12px;
+}
